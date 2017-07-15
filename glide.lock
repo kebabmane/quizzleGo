@@ -1,0 +1,98 @@
+hash: 3441bf6ff6d443d7e65fcdfc4f1d1b67e506cee012ed3b4901bbe2aab9890aa9
+updated: 2017-07-15T17:27:26.065843623+10:00
+imports:
+- name: cloud.google.com/go
+  version: 686f0e89858ea78eae54d4b2021e6bfc7d3a30ca
+  subpackages:
+  - compute/metadata
+  - internal
+  - logging
+  - logging/apiv2
+  - logging/internal
+- name: github.com/dgrijalva/jwt-go
+  version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
+- name: github.com/go-ozzo/ozzo-dbx
+  version: 0e21bcb0bc03006bf6b2cace9619f13740dbff93
+- name: github.com/go-ozzo/ozzo-routing
+  version: 64c302ed7fc6f94c03ac31d29ae3c86e6d900b08
+  subpackages:
+  - auth
+  - content
+  - cors
+- name: github.com/go-ozzo/ozzo-validation
+  version: a2f38cc94da87eaa22792311be67cfcfad703fb0
+- name: github.com/golang/gddo
+  version: 95a6c634fc4948a832d26a56e029b7f709cab144
+  subpackages:
+  - httputil
+  - httputil/header
+- name: github.com/golang/protobuf
+  version: 7a211bcf3bce0e3f1d74f9894916e6f116ae83b4
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/empty
+  - ptypes/struct
+  - ptypes/timestamp
+- name: github.com/googleapis/gax-go
+  version: da06d194a00e19ce00d9011a13931c3f6f6887c7
+- name: github.com/lib/pq
+  version: 4dd446efc17690bc53e154025146f73203b18309
+  subpackages:
+  - oid
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/net
+  version: 1a26cf06691746ee35aa7113c9b37289afc7ea28
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/sys
+  version: 4cd6d1a821c7175768725b55ca82f14683a29ea4
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: a263ba8db058568bb9beba166777d9c9dbe75d68
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/grpc
+  version: 8712952b7d646dbbbc6fb73a782174f3115060f3
+  subpackages:
+  - codes
+  - credentials
+  - credentials/oauth
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - stats
+  - tap
+  - transport
+- name: gopkg.in/yaml.v2
+  version: 3b4ad1db5b2a649883ff3782f5f9f6fb52be71af
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
