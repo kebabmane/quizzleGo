@@ -3,8 +3,8 @@ package apis
 import (
 	"strconv"
 
+	"../util"
 	"github.com/go-ozzo/ozzo-routing"
-	"github.com/qiangxue/golang-restful-starter-kit/util"
 )
 
 const (

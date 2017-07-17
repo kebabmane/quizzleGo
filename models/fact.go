@@ -5,7 +5,7 @@ import "github.com/go-ozzo/ozzo-validation"
 // Artist represents an artist record.
 type Fact struct {
 	Id         int    `json:"id" db:"id"`
-	FactString string `json:"factString" db:"factString"`
+	FactString string `json:"factString" db:"factstring"`
 }
 
 // Validate validates the Artist fields.

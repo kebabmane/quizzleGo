@@ -48,7 +48,7 @@ func (dao *FactDAO) Delete(rs app.RequestScope, id int) error {
 // Count returns the number of the artist records in the database.
 func (dao *FactDAO) Count(rs app.RequestScope) (int, error) {
 	var count int
-	err := rs.Tx().Select("COUNT(*)").From("fact").Row(&count)
+	err := rs.Tx().Select("COUNT(*)").From("facts").Row(&count)
 	return count, err
 }
 
