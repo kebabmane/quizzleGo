@@ -12,18 +12,22 @@ This project is the RESTful API backend that can be consumed by any app (I have 
 
 ## Steps to Install
 
-git clone https://github.com/kebabmane/quizzleGo.git
-
-cd quizzleGo
-
 For this projec to work you will need a local (or accessable) PostgreSQL database installed, create your database and update the settings in the app.yaml configuration
 
 Then execute the script in the test data directory, db.sql to import some base 'fact' data 
 
-I use glide for dependcy management so ensure it's installed
+I use glide for dependcy management so ensure it's installed'
+
+git clone https://github.com/kebabmane/quizzleGo.git
+
+cd quizzleGo
 
 brew install glide
 
 glide install
 
-go run server.go
+go run server.go'
+
+
+Cheers
+Rhys / @kebabman

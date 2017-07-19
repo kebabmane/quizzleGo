@@ -1,5 +1,5 @@
 hash: 3441bf6ff6d443d7e65fcdfc4f1d1b67e506cee012ed3b4901bbe2aab9890aa9
-updated: 2017-07-17T16:31:41.491855348+10:00
+updated: 2017-07-20T08:42:50.630511839+10:00
 imports:
 - name: github.com/BurntSushi/toml
   version: a368813c5e648fee92e5f6c30e3944ff9d5e8895
@@ -29,10 +29,6 @@ imports:
   version: 0723e352fa358f9322c938cc2dadda874e9151a9
 - name: github.com/mitchellh/mapstructure
   version: f3009df150dadf309fdee4a54ed65c124afad715
-- name: github.com/qiangxue/golang-restful-starter-kit
-  version: 6633781713379acbdbe433c41f48e110c7e7b0fe
-  subpackages:
-  - util
 - name: github.com/Sirupsen/logrus
   version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
 - name: github.com/spf13/afero
