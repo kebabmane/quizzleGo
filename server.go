@@ -10,12 +10,12 @@ import (
 	"./errors"
 	"./services"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/go-ozzo/ozzo-dbx"
-	"github.com/go-ozzo/ozzo-routing"
-	"github.com/go-ozzo/ozzo-routing/content"
-	"github.com/go-ozzo/ozzo-routing/cors"
-	_ "github.com/lib/pq"
+	"./vendor/github.com/Sirupsen/logrus"
+	"./vendor/github.com/go-ozzo/ozzo-dbx"
+	"./vendor/github.com/go-ozzo/ozzo-routing"
+	"./vendor/github.com/go-ozzo/ozzo-routing/content"
+	"./vendor/github.com/go-ozzo/ozzo-routing/cors"
+	_ "./vendor/github.com/lib/pq"
 )
 
 func main() {
